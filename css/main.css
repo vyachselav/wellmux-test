@@ -1,0 +1,224 @@
+@font-face {
+    font-family: "PT Sans";
+    src: url(../fonts/PTSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PT Sans Bold";
+    src: url(../fonts/PTSans-Bold.ttf);
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #555;
+}
+
+.first {
+    padding-top: 52px;
+    padding-bottom: 15px;
+    background-color: #fcdb00;
+}
+
+header {
+    font: 22px "PT Sans Bold", sans-serif;
+    color: #010101;
+    padding-bottom: 40px;
+}
+
+.logo > a > span {
+    display: inline-block;
+    padding-top: 6px;
+    font-size: 30px;
+}
+
+.navbar-brand > img {
+    display: inline-block;
+}
+
+.menu {
+    margin-top: -8px;
+}
+
+.menu > button:last-child {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.logo > a > span {
+    color: #010101;
+}
+
+header ul > li {
+    padding-left: 40px;
+}
+
+header ul > li > a {
+    color: #010101;
+}
+
+header ul > li > a:visited {
+    color: #110e00;
+    background-color: #e8ca00 !important;
+}
+
+header ul > li > a:hover {
+    color: #110e00;
+    background-color: #e8ca00 !important;
+}
+
+header ul > li > a:active {
+    color: #110e00;
+    background-color: #9a8600 !important;
+}
+
+h1 {
+    margin-top: 70px;
+    margin-bottom: 27px;
+    font: 32px "PT Sans Bold", sans-serif;
+    line-height: 18px;
+    color: #010101;
+}
+
+h2 {
+
+    font: 22px "PT Sans", sans-serif;
+    line-height: 24px;
+    color: #010101;
+}
+
+h3 {
+    margin-bottom: 27px;
+    font: 20px "PT Sans", sans-serif;
+    line-height: 24px;
+    color: #313841;
+}
+
+p {
+    margin-bottom: 40px;
+    font: 16px "PT Sans", sans-serif;
+    line-height: 20px;
+    color: #555;
+}
+
+.carousel-inner li {
+    margin-right: 30px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    color: black
+}
+
+.carousel-control .glyphicon-chevron-right{
+    right: 0;
+}
+
+.carousel-control .glyphicon-chevron-left{
+    left: 0;
+}
+
+.ipad {
+    padding-bottom: 90px;
+}
+
+test2 {
+    padding-top: 90px;
+}
+
+.second {
+    background-color: #fff;
+}
+
+.second h1 {
+    margin-top: 120px;
+    margin-bottom: 0;
+    line-height: 32px;
+}
+
+.second h2 {
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.second h3 {
+    margin-bottom: 90px;
+}
+
+.second p {
+    margin-bottom: 90px;
+    color: #898989;
+}
+
+.third {
+    background-color: #010101;
+}
+
+.third h1 {
+    margin-top: 95px;
+    margin-bottom: 0;
+    color: #fcdb00;
+}
+
+.third h3 {
+    margin-bottom: 45px;
+    color: #898989;
+}
+
+.third .enter-email {
+    margin-bottom: 78px;
+}
+
+.third input[type="text"] {
+    display: inline-block;
+    width: 74%;
+    height: 52px;
+    padding: 6px 24px;
+    margin-right: 20px;
+    border-width: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.third button {
+    width: 126px;
+    height: 52px;
+    margin-top: -2px;
+    border-width: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font: 16px "PT Sans Bold", sans-serif;
+    line-height: 24px;
+    background-color: #fcdb00;
+    color: #010101;
+
+}
+
+.third button:hover {
+    background-color: #9a8600;
+}
+
+.social {
+    margin-bottom: 130px;
+}
+
+.third ul li img {
+    padding-right: 33px;
+}
+
+.third ul li a {
+    color: #fff;
+}
+
+.third ul li a:hover {
+    color: #fcdb00;
+}
+
+footer {
+    padding-bottom: 135px;
+}
